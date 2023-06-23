@@ -16,4 +16,4 @@ const changePosition = function (){ for (let i = 1; i< allTheG.length; i++){
     }
 }}
 
-let changeM = setInterval(changePosition, 1000)
+let changeM = setInterval(changePosition, 1500)
