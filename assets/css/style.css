@@ -130,6 +130,7 @@ main{
   display: flex;
   width: 85%;
   margin: 0 auto;
+  padding-top: 4em;
 }
 .main-left{
   display: flex;
@@ -141,12 +142,12 @@ main{
   flex-wrap: wrap;
   flex-direction: column;
   align-items: flex-start;
-  height: auto;
+  width: 40%;
 }
 .sticky-container {
   position: sticky;
   top: 10%;
- right: 0;
+  right: 0;
 }
 article{
   display: flex;
@@ -200,6 +201,7 @@ article .article-img img{
   gap: 1em;
 }
 .footer-tag li{
-  border: 1px solid black;
-  padding: 1em;
+  border: 1px solid #191919;
+  border-radius: 5px;
+  padding: 0.5em;
 }
